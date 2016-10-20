@@ -1,0 +1,68 @@
+[
+    {
+        "use_count": 62,
+        "fail_count": 1,
+        "valid": true,
+        "proxy": "http://119.6.136.122:80"
+    },
+    {
+        "use_count": 62,
+        "fail_count": 6,
+        "valid": true,
+        "proxy": "http://49.82.64.62:8998"
+    },
+    {
+        "use_count": 63,
+        "fail_count": 1,
+        "valid": true,
+        "proxy": "http://182.44.240.205:8998"
+    },
+    {
+        "use_count": 63,
+        "fail_count": 6,
+        "valid": true,
+        "proxy": "http://223.67.136.218:80"
+    },
+    {
+        "use_count": 62,
+        "fail_count": 1,
+        "valid": true,
+        "proxy": "http://61.164.248.243:138"
+    },
+    {
+        "use_count": 63,
+        "fail_count": 6,
+        "valid": true,
+        "proxy": "http://115.203.214.14:81"
+    },
+    {
+        "use_count": 63,
+        "fail_count": 0,
+        "valid": true,
+        "proxy": "http://122.118.17.44:8080"
+    },
+    {
+        "use_count": 63,
+        "fail_count": 3,
+        "valid": true,
+        "proxy": "http://1.163.227.246:8080"
+    },
+    {
+        "use_count": 62,
+        "fail_count": 0,
+        "valid": true,
+        "proxy": "http://183.91.33.76:8080"
+    },
+    {
+        "use_count": 63,
+        "fail_count": 0,
+        "valid": true,
+        "proxy": "http://111.23.4.155:8080"
+    },
+    {
+        "use_count": 63,
+        "fail_count": 1,
+        "valid": true,
+        "proxy": "http://219.138.139.174:8000"
+    }
+]

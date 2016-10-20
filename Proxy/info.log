@@ -1,0 +1,415 @@
+2016-10-19 16:28:45,931 - middleware.py:53 - (INFO) - Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-10-19 16:28:46,115 - middleware.py:53 - (INFO) - Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-10-19 16:28:46,118 - middleware.py:53 - (INFO) - Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-10-19 16:28:46,121 - middleware.py:53 - (INFO) - Enabled item pipelines:
+['proxy.pipelines.proxy_pipeline.ProxyPipeline']
+2016-10-19 16:28:46,121 - engine.py:257 - (INFO) - Spider opened
+2016-10-19 16:28:46,128 - logstats.py:47 - (INFO) - Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-10-19 16:28:46,384 - freeproxy_spider.py:105 - (INFO) - ##### response url: http://www.xicidaili.com/nn/1
+2016-10-19 16:28:46,418 - freeproxy_spider.py:61 - (INFO) - ##### response url: http://www.kxdaili.com/dailiip/1/1.html
+2016-10-19 16:28:46,632 - freeproxy_spider.py:82 - (INFO) - ##### response url: http://proxy.mimvp.com/free.php?proxy=in_hp
+2016-10-19 16:28:46,647 - freeproxy_spider.py:61 - (INFO) - ##### response url: http://www.kxdaili.com/dailiip/1/2.html
+2016-10-19 16:28:46,744 - freeproxy_spider.py:61 - (INFO) - ##### response url: http://www.kxdaili.com/dailiip/1/3.html
+2016-10-19 16:28:46,747 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 122.0.74.166:3389
+2016-10-19 16:28:46,785 - freeproxy_spider.py:61 - (INFO) - ##### response url: http://www.kxdaili.com/dailiip/1/4.html
+2016-10-19 16:28:46,831 - freeproxy_spider.py:128 - (INFO) - ##### response url: http://ip181.com/daili/1.html
+2016-10-19 16:28:46,859 - freeproxy_spider.py:61 - (INFO) - ##### response url: http://www.kxdaili.com/dailiip/1/5.html
+2016-10-19 16:28:46,865 - freeproxy_spider.py:128 - (INFO) - ##### response url: http://ip181.com/daili/2.html
+2016-10-19 16:28:46,960 - freeproxy_spider.py:61 - (INFO) - ##### response url: http://www.kxdaili.com/dailiip/1/6.html
+2016-10-19 16:28:46,982 - freeproxy_spider.py:128 - (INFO) - ##### response url: http://ip181.com/daili/3.html
+2016-10-19 16:28:47,016 - freeproxy_spider.py:184 - (INFO) - ##### response url: http://www.66ip.cn/nmtq.php?getnum=50&isp=0&anonymoustype=3&start=&ports=&export=&ipaddress=&area=1&proxytype=0&api=66ip
+2016-10-19 16:28:47,026 - freeproxy_spider.py:128 - (INFO) - ##### response url: http://ip181.com/daili/4.html
+2016-10-19 16:28:47,040 - freeproxy_spider.py:61 - (INFO) - ##### response url: http://www.kxdaili.com/dailiip/1/7.html
+2016-10-19 16:28:47,125 - freeproxy_spider.py:151 - (INFO) - ##### response url: http://www.httpdaili.com/mfdl/
+2016-10-19 16:28:47,132 - freeproxy_spider.py:128 - (INFO) - ##### response url: http://ip181.com/daili/6.html
+2016-10-19 16:28:47,197 - freeproxy_spider.py:128 - (INFO) - ##### response url: http://ip181.com/daili/5.html
+2016-10-19 16:28:47,255 - freeproxy_spider.py:128 - (INFO) - ##### response url: http://ip181.com/daili/7.html
+2016-10-19 16:28:47,283 - freeproxy_spider.py:128 - (INFO) - ##### response url: http://ip181.com/daili/8.html
+2016-10-19 16:28:47,309 - freeproxy_spider.py:61 - (INFO) - ##### response url: http://www.kxdaili.com/dailiip/1/9.html
+2016-10-19 16:28:47,372 - freeproxy_spider.py:61 - (INFO) - ##### response url: http://www.kxdaili.com/dailiip/1/10.html
+2016-10-19 16:28:47,450 - freeproxy_spider.py:128 - (INFO) - ##### response url: http://ip181.com/daili/9.html
+2016-10-19 16:28:47,562 - freeproxy_spider.py:128 - (INFO) - ##### response url: http://ip181.com/daili/10.html
+2016-10-19 16:28:48,326 - freeproxy_spider.py:61 - (INFO) - ##### response url: http://www.kxdaili.com/dailiip/1/8.html
+2016-10-19 16:28:48,328 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 122.193.77.194:81
+2016-10-19 16:28:48,328 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 123.232.211.18:8888
+2016-10-19 16:28:48,328 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 59.33.46.187:6969
+2016-10-19 16:28:48,332 - engine.py:296 - (INFO) - Closing spider (finished)
+2016-10-19 16:28:48,334 - proxy_pipeline.py:32 - (INFO) - ##### waiting for proxy threadpool exit...
+2016-10-19 16:28:49,232 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 39.86.58.66:81
+2016-10-19 16:28:49,394 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 112.243.184.242:8888
+2016-10-19 16:28:49,401 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 106.75.128.90:80
+2016-10-19 16:28:49,556 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 202.171.253.72:80
+2016-10-19 16:28:49,559 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 115.28.1.194:8081
+2016-10-19 16:28:49,566 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 42.96.184.58:8088
+2016-10-19 16:28:49,713 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 119.29.253.167:8888
+2016-10-19 16:28:50,671 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 218.72.172.72:8888
+2016-10-19 16:28:50,823 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 112.83.75.1:81
+2016-10-19 16:28:50,894 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 113.121.134.8:8888
+2016-10-19 16:28:51,678 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 219.142.234.13:8888
+2016-10-19 16:28:52,233 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 122.193.202.148:6969
+2016-10-19 16:28:52,395 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 27.184.135.39:8888
+2016-10-19 16:28:52,401 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 27.205.6.188:81
+2016-10-19 16:28:52,558 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 122.71.58.134:8888
+2016-10-19 16:28:52,561 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 202.155.210.2:8080
+2016-10-19 16:28:52,713 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 115.28.2.233:8088
+2016-10-19 16:28:53,673 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 182.112.156.224:80
+2016-10-19 16:28:53,825 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 171.8.82.41:8888
+2016-10-19 16:28:53,894 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 113.195.84.230:8888
+2016-10-19 16:28:54,680 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 115.29.33.208:8088
+2016-10-19 16:28:55,233 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 223.12.54.135:8888
+2016-10-19 16:28:55,397 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 42.84.59.173:8888
+2016-10-19 16:28:55,403 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 182.147.247.212:8888
+2016-10-19 16:28:55,559 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 171.11.184.55:8118
+2016-10-19 16:28:55,562 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 218.86.128.5:8118
+2016-10-19 16:28:55,714 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 111.193.76.35:81
+2016-10-19 16:28:56,348 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 49.83.47.148:81
+2016-10-19 16:28:56,585 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 221.10.159.234:1337
+2016-10-19 16:28:56,674 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 123.14.255.164:81
+2016-10-19 16:28:56,825 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 112.80.120.136:8118
+2016-10-19 16:28:56,895 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 222.45.233.2:3128
+2016-10-19 16:28:57,680 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 27.11.88.198:8118
+2016-10-19 16:28:57,926 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 116.226.28.78:808
+2016-10-19 16:28:58,398 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 183.141.126.80:3128
+2016-10-19 16:28:58,404 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 125.124.135.33:3128
+2016-10-19 16:28:58,562 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 110.73.41.233:8123
+2016-10-19 16:28:58,611 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 49.84.214.128:8998
+2016-10-19 16:28:58,716 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 139.201.155.200:8888
+2016-10-19 16:28:59,746 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 115.201.136.13:8998
+2016-10-19 16:28:59,941 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 14.109.115.226:8998
+2016-10-19 16:28:59,971 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 111.1.23.175:80
+2016-10-19 16:29:00,316 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 42.62.0.122:3128
+2016-10-19 16:29:00,720 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 183.141.109.250:3128
+2016-10-19 16:29:00,927 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 58.214.5.229:80
+2016-10-19 16:29:01,446 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 218.205.80.9:83
+2016-10-19 16:29:01,460 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 218.205.80.9:83
+2016-10-19 16:29:01,686 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 111.1.23.181:80
+2016-10-19 16:29:01,717 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 119.128.91.82:8998
+2016-10-19 16:29:02,747 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 182.89.5.171:8123
+2016-10-19 16:29:02,944 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 111.1.23.143:80
+2016-10-19 16:29:02,973 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 125.124.132.32:3128
+2016-10-19 16:29:03,319 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 179.243.32.5:8080
+2016-10-19 16:29:03,723 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 179.243.32.5:8080
+2016-10-19 16:29:04,460 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 1.163.27.242:8080
+2016-10-19 16:29:04,687 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 1.163.27.242:8080
+2016-10-19 16:29:04,948 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 118.169.112.160:8080
+2016-10-19 16:29:05,749 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 121.228.225.118:8998
+2016-10-19 16:29:05,944 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 27.196.60.36:8998
+2016-10-19 16:29:05,974 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 123.96.2.249:3128
+2016-10-19 16:29:06,319 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 182.255.45.250:8080
+2016-10-19 16:29:06,561 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 36.66.36.140:3128
+2016-10-19 16:29:06,621 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 182.255.45.250:8080
+2016-10-19 16:29:06,723 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 154.16.156.7:6588
+2016-10-19 16:29:07,167 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 118.169.112.160:8080
+2016-10-19 16:29:07,687 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 79.141.70.78:3128
+2016-10-19 16:29:07,707 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 36.66.36.140:3128
+2016-10-19 16:29:07,950 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 79.141.70.78:3128
+2016-10-19 16:29:08,888 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 111.1.23.162:80
+2016-10-19 16:29:08,989 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 111.1.23.162:80
+2016-10-19 16:29:09,724 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 27.144.233.15:8998
+2016-10-19 16:29:09,880 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 61.162.223.41:9797
+2016-10-19 16:29:10,170 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 106.115.52.199:9999
+2016-10-19 16:29:10,470 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 39.1.42.57:8080
+2016-10-19 16:29:10,505 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 39.1.42.57:8080
+2016-10-19 16:29:10,690 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 113.68.9.70:9999
+2016-10-19 16:29:10,707 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 1.163.229.26:8080
+2016-10-19 16:29:10,950 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 58.59.141.187:3128
+2016-10-19 16:29:11,025 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 110.251.132.22:808
+2016-10-19 16:29:11,160 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 60.6.197.39:8888
+2016-10-19 16:29:11,890 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 117.158.198.74:9797
+2016-10-19 16:29:11,990 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 125.224.233.123:8080
+2016-10-19 16:29:13,072 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 122.193.14.102:80
+2016-10-19 16:29:13,470 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 222.133.223.19:8123
+2016-10-19 16:29:13,509 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 125.124.139.110:3128
+2016-10-19 16:29:13,690 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 222.221.194.156:9999
+2016-10-19 16:29:13,714 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 222.137.189.42:81
+2016-10-19 16:29:13,953 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 121.17.123.235:8080
+2016-10-19 16:29:14,104 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 101.4.136.34:81
+2016-10-19 16:29:14,118 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 171.38.199.239:8123
+2016-10-19 16:29:14,161 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 121.40.135.80:3128
+2016-10-19 16:29:14,382 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 175.181.120.237:808
+2016-10-19 16:29:14,891 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 116.19.193.143:3128
+2016-10-19 16:29:15,096 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 60.250.55.25:8088
+2016-10-19 16:29:15,112 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 118.81.68.78:9797
+2016-10-19 16:29:16,506 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 113.88.21.146:9797
+2016-10-19 16:29:16,676 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 112.116.8.72:8998
+2016-10-19 16:29:16,729 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 116.9.156.105:3123
+2016-10-19 16:29:17,119 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 221.237.154.57:9797
+2016-10-19 16:29:17,144 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 171.38.189.227:8123
+2016-10-19 16:29:17,301 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 39.77.156.20:81
+2016-10-19 16:29:17,384 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 60.217.50.92:81
+2016-10-19 16:29:17,891 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 123.234.60.189:8888
+2016-10-19 16:29:18,177 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 106.58.125.82:8888
+2016-10-19 16:29:18,573 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 42.238.215.184:8118
+2016-10-19 16:29:18,836 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 218.75.149.207:3128
+2016-10-19 16:29:19,507 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 180.117.150.81:8123
+2016-10-19 16:29:19,677 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 27.218.197.71:81
+2016-10-19 16:29:20,184 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 61.220.205.184:3128
+2016-10-19 16:29:20,303 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 125.114.244.116:3128
+2016-10-19 16:29:20,829 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 115.212.81.250:808
+2016-10-19 16:29:20,894 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 58.250.185.177:8118
+2016-10-19 16:29:21,180 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 112.226.111.218:81
+2016-10-19 16:29:21,351 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 115.212.81.250:808
+2016-10-19 16:29:21,394 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 59.61.89.229:8800
+2016-10-19 16:29:21,575 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 183.140.87.186:3128
+2016-10-19 16:29:21,838 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 221.176.181.110:9999
+2016-10-19 16:29:21,915 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 139.224.63.69:80
+2016-10-19 16:29:22,016 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 114.36.18.139:8080
+2016-10-19 16:29:22,240 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 183.33.219.214:8998
+2016-10-19 16:29:22,252 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 61.231.128.99:8080
+2016-10-19 16:29:22,509 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 111.23.4.138:80
+2016-10-19 16:29:22,545 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 92.242.125.177:3128
+2016-10-19 16:29:23,048 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 92.242.125.177:3128
+2016-10-19 16:29:23,894 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 116.53.166.20:8998
+2016-10-19 16:29:24,305 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 175.164.176.147:8123
+2016-10-19 16:29:24,394 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 180.106.170.140:8998
+2016-10-19 16:29:24,576 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 121.31.48.91:8123
+2016-10-19 16:29:25,015 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 1.160.3.32:8080
+2016-10-19 16:29:25,017 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 112.16.175.212:8123
+2016-10-19 16:29:25,252 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 183.232.25.100:8888
+2016-10-19 16:29:25,546 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 1.163.35.63:8080
+2016-10-19 16:29:25,740 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 118.165.23.115:8080
+2016-10-19 16:29:26,049 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 1.163.242.178:8080
+2016-10-19 16:29:26,253 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 159.8.114.37:8080
+2016-10-19 16:29:27,305 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 163.172.133.214:3128
+2016-10-19 16:29:27,392 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 59.78.108.207:808
+2016-10-19 16:29:27,446 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 111.1.23.189:80
+2016-10-19 16:29:28,017 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 84.52.93.202:3128
+2016-10-19 16:29:28,253 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 78.36.1.169:3128
+2016-10-19 16:29:28,546 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 104.196.167.251:80
+2016-10-19 16:29:28,742 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 171.42.240.60:808
+2016-10-19 16:29:29,049 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 118.165.78.172:8080
+2016-10-19 16:29:29,216 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 36.225.49.17:8080
+2016-10-19 16:29:29,750 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 182.253.193.34:8080
+2016-10-19 16:29:30,176 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 183.141.157.219:3128
+2016-10-19 16:29:30,177 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 218.161.75.147:3128
+2016-10-19 16:29:30,311 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 61.230.131.192:8080
+2016-10-19 16:29:30,394 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 89.1.69.161:3128
+2016-10-19 16:29:30,447 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 180.242.49.121:8080
+2016-10-19 16:29:30,627 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 60.21.132.218:63000
+2016-10-19 16:29:31,253 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 1.163.224.17:8080
+2016-10-19 16:29:31,548 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 1.160.7.168:8080
+2016-10-19 16:29:31,743 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 1.160.6.175:8080
+2016-10-19 16:29:32,219 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 39.1.43.171:8080
+2016-10-19 16:29:32,752 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 183.141.157.201:3128
+2016-10-19 16:29:32,819 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 218.63.17.199:8998
+2016-10-19 16:29:33,178 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 36.224.104.122:8080
+2016-10-19 16:29:33,240 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 1.169.224.64:8080
+2016-10-19 16:29:33,298 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 183.141.122.71:3128
+2016-10-19 16:29:33,313 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 125.124.138.231:3128
+2016-10-19 16:29:33,473 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 111.1.23.187:80
+2016-10-19 16:29:33,628 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 1.160.1.132:8080
+2016-10-19 16:29:33,792 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 61.157.198.67:8080
+2016-10-19 16:29:34,223 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 120.25.226.76:8080
+2016-10-19 16:29:34,256 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 218.106.205.145:8080
+2016-10-19 16:29:34,743 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 183.141.104.176:3128
+2016-10-19 16:29:34,875 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 125.46.39.68:808
+2016-10-19 16:29:35,457 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 182.45.92.236:808
+2016-10-19 16:29:35,506 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 208.81.1.245:8080
+2016-10-19 16:29:35,753 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 49.87.107.34:8998
+2016-10-19 16:29:35,821 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 122.5.24.102:9529
+2016-10-19 16:29:36,240 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 125.111.151.223:8998
+2016-10-19 16:29:36,298 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 125.124.142.156:3128
+2016-10-19 16:29:36,433 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 59.61.89.230:8800
+2016-10-19 16:29:36,960 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 124.128.246.181:8998
+2016-10-19 16:29:37,256 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 1.163.240.63:8080
+2016-10-19 16:29:37,545 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 183.66.92.76:8118
+2016-10-19 16:29:37,746 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 119.115.250.183:8998
+2016-10-19 16:29:37,927 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 111.1.23.181:80
+2016-10-19 16:29:38,460 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 221.206.43.39:808
+2016-10-19 16:29:38,555 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 111.1.23.131:80
+2016-10-19 16:29:38,755 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 58.52.201.119:8080
+2016-10-19 16:29:38,980 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 111.23.4.138:80
+2016-10-19 16:29:39,243 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 61.143.158.238:808
+2016-10-19 16:29:39,960 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 103.233.157.130:8080
+2016-10-19 16:29:40,257 - proxy_pipeline.py:29 - (INFO) - ##### invalid proxy: 61.160.254.23:23
+2016-10-19 16:29:40,257 - proxy_pipeline.py:34 - (INFO) - ##### save valid proxy. count: 20
+2016-10-19 16:29:40,259 - statscollectors.py:47 - (INFO) - Dumping Scrapy stats:
+{'downloader/request_bytes': 10383,
+ 'downloader/request_count': 25,
+ 'downloader/request_method_count/GET': 25,
+ 'downloader/response_bytes': 461333,
+ 'downloader/response_count': 25,
+ 'downloader/response_status_count/200': 24,
+ 'downloader/response_status_count/301': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 10, 19, 8, 29, 40, 259000),
+ 'item_scraped_count': 211,
+ 'log_count/INFO': 224,
+ 'response_received_count': 24,
+ 'scheduler/dequeued': 25,
+ 'scheduler/dequeued/memory': 25,
+ 'scheduler/enqueued': 25,
+ 'scheduler/enqueued/memory': 25,
+ 'start_time': datetime.datetime(2016, 10, 19, 8, 28, 46, 128000)}
+2016-10-19 16:29:40,259 - engine.py:327 - (INFO) - Spider closed (finished)
+2016-10-19 16:29:40,266 - middleware.py:53 - (INFO) - Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-10-19 16:29:40,272 - middleware.py:53 - (INFO) - Enabled downloader middlewares:
+['proxy.middlewares.RandomUserAgentMiddleware.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'proxy.middlewares.ProxyMiddleware.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-10-19 16:29:40,273 - middleware.py:53 - (INFO) - Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-10-19 16:29:40,273 - middleware.py:53 - (INFO) - Enabled item pipelines:
+[]
+2016-10-19 16:29:40,275 - engine.py:257 - (INFO) - Spider opened
+2016-10-19 16:29:40,275 - logstats.py:47 - (INFO) - Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-10-19 16:29:42,819 - ProxyMiddleware.py:241 - (INFO) - response status error: 302. to invalid proxy: http://61.185.211.150:8080
+2016-10-19 16:30:01,325 - ProxyMiddleware.py:241 - (INFO) - response status error: 302. to invalid proxy: http://61.185.211.150:8080
+2016-10-19 16:30:15,065 - ProxyMiddleware.py:241 - (INFO) - response status error: 302. to invalid proxy: http://61.185.211.150:8080
+2016-10-19 16:30:17,951 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://123.56.74.13:8080
+2016-10-19 16:30:19,621 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://119.6.136.122:80
+2016-10-19 16:30:23,226 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://58.52.201.119:8080
+2016-10-19 16:30:23,857 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://183.62.196.10:3128
+2016-10-19 16:30:25,088 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://115.203.214.14:81
+2016-10-19 16:30:28,729 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://1.163.227.246:8080
+2016-10-19 16:30:31,089 - ProxyMiddleware.py:241 - (INFO) - response status error: 302. to invalid proxy: http://61.185.211.150:8080
+2016-10-19 16:30:31,638 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://39.1.37.230:8080
+2016-10-19 16:30:33,595 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://92.47.195.250:3128
+2016-10-19 16:30:33,857 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://49.82.64.62:8998
+2016-10-19 16:30:38,729 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://58.52.201.119:8080
+2016-10-19 16:30:40,275 - logstats.py:47 - (INFO) - Crawled 28 pages (at 28 pages/min), scraped 0 items (at 0 items/min)
+2016-10-19 16:30:41,099 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://115.203.214.14:81
+2016-10-19 16:30:42,200 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://154.16.156.7:6588
+2016-10-19 16:30:42,803 - ProxyMiddleware.py:241 - (INFO) - response status error: 302. to invalid proxy: http://61.185.211.150:8080
+2016-10-19 16:30:44,818 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://123.56.74.13:8080
+2016-10-19 16:30:45,858 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://218.106.205.145:8080
+2016-10-19 16:30:51,099 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://223.67.136.218:80
+2016-10-19 16:30:51,897 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://58.52.201.119:8080
+2016-10-19 16:30:52,855 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://115.203.214.14:81
+2016-10-19 16:30:54,818 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://39.1.37.230:8080
+2016-10-19 16:30:58,170 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://92.47.195.250:3128
+2016-10-19 16:30:58,551 - ProxyMiddleware.py:241 - (INFO) - response status error: 302. to invalid proxy: http://61.185.211.150:8080
+2016-10-19 16:31:02,131 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://123.56.74.13:8080
+2016-10-19 16:31:02,855 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://218.106.205.145:8080
+2016-10-19 16:31:03,244 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://219.138.139.174:8000
+2016-10-19 16:31:05,266 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://58.52.201.119:8080
+2016-10-19 16:31:06,994 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://183.62.196.10:3128
+2016-10-19 16:31:12,565 - ProxyMiddleware.py:241 - (INFO) - response status error: 302. to invalid proxy: http://61.185.211.150:8080
+2016-10-19 16:31:13,243 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://119.101.136.89:8998
+2016-10-19 16:31:14,710 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://39.1.37.230:8080
+2016-10-19 16:31:17,515 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://223.67.136.218:80
+2016-10-19 16:31:19,683 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://154.16.156.7:6588
+2016-10-19 16:31:22,131 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://183.62.196.10:3128
+2016-10-19 16:31:26,829 - ProxyMiddleware.py:241 - (INFO) - response status error: 302. to invalid proxy: http://61.185.211.150:8080
+2016-10-19 16:31:27,957 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://123.56.74.13:8080
+2016-10-19 16:31:29,683 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://218.106.205.145:8080
+2016-10-19 16:31:30,308 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://92.47.195.250:3128
+2016-10-19 16:31:32,605 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://58.52.201.119:8080
+2016-10-19 16:31:37,957 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://1.163.227.246:8080
+2016-10-19 16:31:39,134 - ProxyMiddleware.py:241 - (INFO) - response status error: 302. to invalid proxy: http://61.185.211.150:8080
+2016-10-19 16:31:40,180 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://119.101.136.89:8998
+2016-10-19 16:31:40,275 - logstats.py:47 - (INFO) - Crawled 63 pages (at 35 pages/min), scraped 0 items (at 0 items/min)
+2016-10-19 16:31:41,243 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://218.106.205.145:8080
+2016-10-19 16:31:46,642 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://154.16.156.7:6588
+2016-10-19 16:31:46,644 - ProxyMiddleware.py:199 - (INFO) - invalid proxy: http://154.16.156.7:6588(3/10)
+2016-10-19 16:31:48,700 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://92.47.195.250:3128
+2016-10-19 16:31:52,956 - ProxyMiddleware.py:241 - (INFO) - response status error: 302. to invalid proxy: http://61.185.211.150:8080
+2016-10-19 16:31:52,956 - ProxyMiddleware.py:199 - (INFO) - invalid proxy: http://61.185.211.150:8080(10/10)
+2016-10-19 16:31:57,078 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://119.101.136.89:8998
+2016-10-19 16:31:57,078 - ProxyMiddleware.py:199 - (INFO) - invalid proxy: http://119.101.136.89:8998(3/10)
+2016-10-19 16:31:57,207 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://39.1.37.230:8080
+2016-10-19 16:31:57,207 - ProxyMiddleware.py:199 - (INFO) - invalid proxy: http://39.1.37.230:8080(4/10)
+2016-10-19 16:31:57,430 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://123.56.74.13:8080
+2016-10-19 16:31:57,431 - ProxyMiddleware.py:199 - (INFO) - invalid proxy: http://123.56.74.13:8080(5/11)
+2016-10-19 16:32:08,684 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://92.47.195.250:3128
+2016-10-19 16:32:08,684 - ProxyMiddleware.py:199 - (INFO) - invalid proxy: http://92.47.195.250:3128(5/11)
+2016-10-19 16:32:09,852 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://123.56.74.13:8080
+2016-10-19 16:32:09,854 - ProxyMiddleware.py:199 - (INFO) - invalid proxy: http://123.56.74.13:8080(6/11)
+2016-10-19 16:32:11,160 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://218.106.205.145:8080
+2016-10-19 16:32:11,161 - ProxyMiddleware.py:199 - (INFO) - invalid proxy: http://218.106.205.145:8080(5/11)
+2016-10-19 16:32:14,197 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://58.52.201.119:8080
+2016-10-19 16:32:14,198 - ProxyMiddleware.py:199 - (INFO) - invalid proxy: http://58.52.201.119:8080(6/11)
+2016-10-19 16:32:20,095 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://92.47.195.250:3128
+2016-10-19 16:32:20,096 - ProxyMiddleware.py:199 - (INFO) - invalid proxy: http://92.47.195.250:3128(6/11)
+2016-10-19 16:32:22,680 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://218.106.205.145:8080
+2016-10-19 16:32:22,680 - ProxyMiddleware.py:199 - (INFO) - invalid proxy: http://218.106.205.145:8080(6/11)
+2016-10-19 16:32:24,211 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://58.52.201.119:8080
+2016-10-19 16:32:24,211 - ProxyMiddleware.py:199 - (INFO) - invalid proxy: http://58.52.201.119:8080(7/11)
+2016-10-19 16:32:24,552 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://49.82.64.62:8998
+2016-10-19 16:32:40,275 - logstats.py:47 - (INFO) - Crawled 106 pages (at 43 pages/min), scraped 0 items (at 0 items/min)
+2016-10-19 16:32:41,341 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://183.62.196.10:3128
+2016-10-19 16:32:41,342 - ProxyMiddleware.py:199 - (INFO) - invalid proxy: http://183.62.196.10:3128(4/15)
+2016-10-19 16:32:51,263 - testproxy_spider.py:73 - (INFO) - normal response(99 True 121) proxy: http://61.164.248.243:138
+2016-10-19 16:33:03,556 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://223.67.136.218:80
+2016-10-19 16:33:16,051 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://115.203.214.14:81
+2016-10-19 16:33:30,259 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://223.67.136.218:80
+2016-10-19 16:33:36,882 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://115.203.214.14:81
+2016-10-19 16:33:37,936 - testproxy_spider.py:73 - (INFO) - normal response(199 True 193) proxy: http://61.164.248.243:138
+2016-10-19 16:33:40,275 - logstats.py:47 - (INFO) - Crawled 195 pages (at 89 pages/min), scraped 0 items (at 0 items/min)
+2016-10-19 16:34:08,665 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://1.163.227.246:8080
+2016-10-19 16:34:40,275 - logstats.py:47 - (INFO) - Crawled 304 pages (at 109 pages/min), scraped 0 items (at 0 items/min)
+2016-10-19 16:34:55,201 - testproxy_spider.py:73 - (INFO) - normal response(299 True 322) proxy: http://182.44.240.205:8998
+2016-10-19 16:34:58,023 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://223.67.136.218:80
+2016-10-19 16:35:02,894 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://49.82.64.62:8998
+2016-10-19 16:35:05,785 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://49.82.64.62:8998
+2016-10-19 16:35:05,864 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://115.203.214.14:81
+2016-10-19 16:35:40,275 - logstats.py:47 - (INFO) - Crawled 389 pages (at 85 pages/min), scraped 0 items (at 0 items/min)
+2016-10-19 16:35:45,792 - testproxy_spider.py:73 - (INFO) - normal response(399 True 399) proxy: http://1.163.227.246:8080
+2016-10-19 16:35:47,098 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://49.82.64.62:8998
+2016-10-19 16:35:52,022 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://182.44.240.205:8998
+2016-10-19 16:35:56,036 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://49.82.64.62:8998
+2016-10-19 16:36:18,775 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://61.164.248.243:138
+2016-10-19 16:36:40,275 - logstats.py:47 - (INFO) - Crawled 481 pages (at 92 pages/min), scraped 0 items (at 0 items/min)
+2016-10-19 16:36:51,854 - ProxyMiddleware.py:264 - (INFO) - occur exception. to invalid proxy: http://223.67.136.218:80
+2016-10-19 16:36:56,048 - testproxy_spider.py:73 - (INFO) - normal response(499 True 499) proxy: http://111.23.4.155:8080
+2016-10-19 16:36:57,336 - testproxy_spider.py:73 - (INFO) - normal response(484 True 500) proxy: http://219.138.139.174:8000
+2016-10-19 16:36:57,338 - engine.py:296 - (INFO) - Closing spider (finished)
+2016-10-19 16:36:57,339 - statscollectors.py:47 - (INFO) - Dumping Scrapy stats:
+{'downloader/exception_count': 335,
+ 'downloader/exception_type_count/twisted.internet.error.ConnectionRefusedError': 60,
+ 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 237,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseFailed': 17,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 21,
+ 'downloader/request_bytes': 293267,
+ 'downloader/request_count': 848,
+ 'downloader/request_method_count/GET': 848,
+ 'downloader/response_bytes': 35169140,
+ 'downloader/response_count': 513,
+ 'downloader/response_status_count/200': 500,
+ 'downloader/response_status_count/302': 10,
+ 'downloader/response_status_count/503': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 10, 19, 8, 36, 57, 339000),
+ 'log_count/INFO': 107,
+ 'response_received_count': 500,
+ 'scheduler/dequeued': 848,
+ 'scheduler/dequeued/memory': 848,
+ 'scheduler/enqueued': 848,
+ 'scheduler/enqueued/memory': 848,
+ 'start_time': datetime.datetime(2016, 10, 19, 8, 29, 40, 276000)}
+2016-10-19 16:36:57,341 - engine.py:327 - (INFO) - Spider closed (finished)
